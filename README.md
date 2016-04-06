@@ -31,15 +31,15 @@ If you want to run full function that contains both training and reference, make
 If you have a pretrained xml file for HanyNet and configured the `parameters.xml` file right, and only want to perform reference with the networks, simply comment out `_HANY_NET_TRAIN_FROM_SCRATCH` at line 36 in `HanyNet.h`.
 
 Note that in file `HanyNet-run.cpp`, only one of the following pregmas at line 17~19 should be defined:
-* _HANY_NET_LOAD_MNIST
-* _HANY_NET_LOAD_SAMPLE_FROM_PIC
-* _HANY_NET_CAPTURE_FACE_FROM_CAMERA
+* `_HANY_NET_LOAD_MNIST`
+* `_HANY_NET_LOAD_SAMPLE_FROM_PIC`
+* `_HANY_NET_CAPTURE_FACE_FROM_CAMERA`
 
 Only one of the following pregmas at line 21~24 should be defined:
-* _HANY_NET_PREDICT_MNIST
-* _HANY_NET_PREDICT_IMAGE_SERIES
-* _HANY_NET_PREDICT_VEDIO_SERIES
-* _HANY_NET_PREDICT_CAMERA
+* `_HANY_NET_PREDICT_MNIST`
+* `_HANY_NET_PREDICT_IMAGE_SERIES`
+* `_HANY_NET_PREDICT_VEDIO_SERIES`
+* `_HANY_NET_PREDICT_CAMERA`
 
 ## Applications
 ### Digit Recognition
