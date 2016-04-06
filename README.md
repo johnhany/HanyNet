@@ -130,9 +130,9 @@ The last layer must be output layer.
 Hidden layers are composed of pairs of one convolutional layer and one subsampling layer, specifically one subsampling layer after one convolutional layer.
 
 ## Results
-For MNIST dataset, with 6-layer networks, HanyNet can reach accuracy of 83~88%.
+For MNIST dataset, with 6-layer networks, HanyNet can reach accuracy of 83~88%. Training costs 1546.98s (60000 samples with 10 epoches). Reference costs 392.15s (10000 samples).
 
-For facial recognition, with 4-person scenario, HanyNet can accomplish accuracy of 100%. Results for cases with more than 10 persons are less satisfactory.
+For facial recognition, with 4-person scenario, HanyNet can accomplish accuracy of 100% (with only 20 training samples for each person). Results for cases with more than 10 persons are less satisfactory.
 
 For vehicle classification, with 4 classes containing only 20 samples each, HanyNet classification accuracy is listed below:
 
