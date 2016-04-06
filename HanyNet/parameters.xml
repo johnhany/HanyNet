@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<hanynet_parameters>
+  <group_samples>64</group_samples>
+  <epoch_num>10</epoch_num>
+  <gradient_alpha>1.0</gradient_alpha>
+  <sample_width>28</sample_width>
+  <sample_height>28</sample_height>
+  <net_struct>
+    <layer type="i"></layer>
+    <layer type="c">
+      <func>sigmoid</func>
+      <maps>6</maps>
+      <size>5</size>
+    </layer>
+    <layer type="s">
+      <scale>2</scale>
+    </layer>
+    <layer type="c">
+      <func>sigmoid</func>
+      <maps>6</maps>
+      <size>5</size>
+    </layer>
+    <layer type="s">
+      <scale>2</scale>
+    </layer>
+    <layer type="o">
+      <func>softmax</func>
+      <classes>10</classes>
+    </layer>
+  </net_struct>
+</hanynet_parameters>
