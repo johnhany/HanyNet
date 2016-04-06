@@ -93,16 +93,16 @@ Parameters for constructing networks are contained in file `parameters.xml`. Mea
 * `sample_width` - Image width of input sample. Recommand `28` for a 6-layer network, and `60` for a 8-layer network.
 * `sample_height` - Image height of input sample. Recommand `28` for a 6-layer network, and `60` for a 8-layer network.
 * `net_struct` - Define network structure.
-** `layer type="i"` - Define an input layer.
-** `layer type="c"` - Define a convolutional layer.
-*** `func` - Activate function of convolutional layer. Can be `relu` or `sigmoid`.
-*** `maps` - Number of convolution kernels of convolutional layer.
-*** `size` - Size of convolution kernel of convolutional layer.	Value should be odd.
-** `layer type="s"` - Define a subsampling layer.
-*** `scale` - Scale of subsampling. `2` means half the size. Recommand `2`.
-** `layer type="o"` - Define an output layer.
-*** `func` - Activate function of output layer. Only supports `softmax` for now.
-*** `classes` - Number of classes.
+*  `layer type="i"` - Define an input layer.
+*  `layer type="c"` - Define a convolutional layer.
+*   `func` - Activate function of convolutional layer. Can be `relu` or `sigmoid`.
+*   `maps` - Number of convolution kernels of convolutional layer.
+*   `size` - Size of convolution kernel of convolutional layer.	Value should be odd.
+*  `layer type="s"` - Define a subsampling layer.
+*   `scale` - Scale of subsampling. `2` means half the size. Recommand `2`.
+*  `layer type="o"` - Define an output layer.
+*   `func` - Activate function of output layer. Only supports `softmax` for now.
+*   `classes` - Number of classes.
 
 ## License
 
