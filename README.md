@@ -134,7 +134,7 @@ For MNIST dataset, with 6-layer networks, HanyNet can reach accuracy of 83~88%. 
 
 For facial recognition, with 4-person scenario, HanyNet can accomplish accuracy of 100% (with only 20 training samples for each person). Results for cases with more than 10 persons are less satisfactory.
 
-For vehicle classification, with 4 classes containing only 20 samples each, HanyNet classification accuracy is listed below:
+For vehicle classification, with 4 classes containing only 30 samples each, HanyNet classification accuracy is listed below:
 
     Sedan | SUV | Truck | Bus
      67%  | 87% |  73%  | 93%
